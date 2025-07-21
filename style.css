@@ -1,0 +1,19 @@
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0 0 10px #ff4081;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Glow on hover */
+button:hover {
+  background-color: #ff5e99;
+  box-shadow: 0 0 20px #ff4081, 0 0 40px #ff4081;
+}
+
